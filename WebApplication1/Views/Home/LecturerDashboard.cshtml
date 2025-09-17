@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Lecturer Dashboard";
+}
+
+<h2>Lecturer Dashboard</h2>
+<hr />
+
+<div style="margin-bottom:20px;">
+    <a href="/Home/SubmitClaim" style="background:#007bff; color:white; padding:10px 15px; border-radius:4px; text-decoration:none;">Create New Claim</a>
+    <a href="/Home/MyClaims" style="background:#6c757d; color:white; padding:10px 15px; border-radius:4px; text-decoration:none;">My Claims</a>
+    <a href="/Home/Login" style="background:#dc3545; color:white; padding:10px 15px; border-radius:4px; text-decoration:none; float:right;">Logout</a>
+</div>
+
+<div style="display:flex; gap:40px;">
+    <div style="flex:1; border:1px solid #ddd; border-radius:6px; padding:15px;">
+        <h4>Claim Summary</h4>
+        <p>Total Claims: 5</p>
+        <p>Pending: 2</p>
+        <p>Approved: 2</p>
+        <p>Rejected: 1</p>
+    </div>
+
+    <div style="flex:1; border:1px solid #ddd; border-radius:6px; padding:15px;">
+        <h4>Recent Activity</h4>
+        <ul>
+            <li>Claim #105 — <span style="color:orange;">Pending</span></li>
+            <li>Claim #104 — <span style="color:green;">Approved</span></li>
+            <li>Claim #103 — <span style="color:red;">Rejected</span></li>
+        </ul>
+    </div>
+</div>

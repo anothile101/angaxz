@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Manager Dashboard";
+}
+
+<h2>Manager Dashboard</h2>
+<hr />
+
+<div style="display:flex; gap:40px;">
+    <div style="flex:1; border:1px solid #ddd; border-radius:6px; padding:15px;">
+        <h4>Claim Reviews</h4>
+        <ul>
+            <li>Claim #110 — Approved</li>
+            <li>Claim #109 — Approved</li>
+            <li>Claim #108 — Rejected</li>
+        </ul>
+    </div>
+
+    <div style="flex:1; border:1px solid #ddd; border-radius:6px; padding:15px;">
+        <h4>Reviewer Access</h4>
+        <p>Coordinator: Active</p>
+        <p>HR: Active</p>
+        <p>Manager: Active</p>
+    </div>
+</div>
+
+<br />
+<div style="border:1px solid #ddd; border-radius:6px; padding:15px;">
+    <h4>Uploaded Documents</h4>
+    <ul>
+        <li>InstructionClaim.pdf</li>
+        <li>LabHours.docx</li>
+        <li>Consultations.xlsx</li>
+    </ul>
+</div>
+
+<br />
+<a href="/Home/Login" style="background:#dc3545; color:white; padding:10px 15px; border-radius:4px; text-decoration:none;">Logout</a>
